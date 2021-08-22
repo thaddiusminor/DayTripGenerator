@@ -1,7 +1,6 @@
-# DayTripGenerator 
 "use strict"
 
-function trip(){
+function trip() {
 let Destination = ["london","New York","Ghana","Zambia","Paris" ]  
 let random = Math.random() * Destination.length; 
 random = Math.floor(random);
@@ -47,9 +46,9 @@ function Activity(){
     
  if(userInput === "no") {
  console.log(toDo[random])
-  Activity();  
+  Activity();         
  }
    if(userInput === "yes")
-console.log("All set, your trip is complete!") 
+console.log("All set, your trip is complete!")   
  }
 }

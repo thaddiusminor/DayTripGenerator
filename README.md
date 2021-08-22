@@ -36,19 +36,20 @@ function food() {
         Activity()
     }
     
+
 function Activity(){
     let toDo = ["hiking","Beach Visit","Sky Diving","Car Racing","Go Carting" ] 
+    
     let random = Math.random() * toDo.length; 
     random = Math.floor(random);
     console.log(toDo[random]) 
     let userInput = prompt( "Are you happy with this form of entertainment") 
     
-    if(userInput === "no") {
-        console.log(toDo[random])
-        Activity();  
-        if(userInput === "yes")
-        console.log("all set, your trip is complete")  
-    }   
+ if(userInput === "no") {
+ console.log(toDo[random])
+  Activity();  
+ }
+   if(userInput === "yes")
+console.log("All set, your trip is complete!") 
+ }
 }
-} 
-console.log("All set, your trip is") 
